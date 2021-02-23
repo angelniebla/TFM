@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">CarNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ángel Niebla Montero</string>
+    <string name="nav_header_subtitle">angel.niebla@udc.es</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Idioma</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="notificaciones_subtitulo">Enviarme notificaciones sobre</string>
+    <string name="Posible_Accidente">Posible Accidente</string>
+    <string name="Estado_carretera">Estado de la carretera</string>
+    <string name="Limite_velocidad">Detección de señales de velocidad</string>
+    <string name="Ayuda_intersecciones">Ayuda en intersecciones</string>
+    <string name="Eventos">Eventos</string>
+    <string name="Curvas_peligrosas">Curvas peligrosas</string>
+    <string name="Mapa">Mapa</string>
+    <string name="Alertas">Alertas</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Cerrar_sesion">Cerrar sesion</string>
+    <string name="Seleccionar_idioma">Selecciona un idioma</string>
+    <string name="regis">Registrarse</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="repeatPassword">Repetir contraseña</string>
+    <string name="password">Contraseñá</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="camara">Cámara</string>
+    <string name="perfil">Perfil</string>
+    <string name="deteccion_carril">Detección de carril</string>
+</resources>

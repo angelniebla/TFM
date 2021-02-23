@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarNavigation</string>
+    <string name="action_settings">Language</string>
+    <string name="configuracion">Configuration</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="notificaciones_subtitulo">Send me notifications about</string>
+    <string name="Posible_Accidente">Possible accident</string>
+    <string name="Estado_carretera">State of the road</string>
+    <string name="Limite_velocidad">Traffic speed sign recognition</string>
+    <string name="Ayuda_intersecciones">Help at intersections</string>
+    <string name="Mapa">Map</string>
+    <string name="Alertas">Alerts</string>
+    <string name="Curvas_peligrosas">Dangerous curves</string>
+    <string name="Eventos">Events</string>
+    <string name="Usuario">User</string>
+    <string name="Cerrar_sesion">Sign Out</string>
+    <string name="Seleccionar_idioma">Select a language</string>
+    <string name="regis">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="repeatPassword">Repeat password</string>
+    <string name="login">Log in</string>
+    <string name="password">Password</string>
+    <string name="logout">Sign out</string>
+    <string name="camara">Camera</string>
+    <string name="perfil">Profile</string>
+    <string name="deteccion_carril">Road line recognition</string>
+</resources>
