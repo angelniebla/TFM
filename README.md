@@ -18,7 +18,7 @@ El contenido del repositorio es el siguiente:
   - SharedPreference/: fichero que almacena los conjuntos clave-valor que se usan en la aplicación.
   - Volley/: archivos necesarios para el uso de la librería Volley en las conexiones HTTP con el servidor.
   
-- CarNavigationServer (Servidor cloud)}
+- CarNavigationServer (Servidor cloud)
 	- car
 		- admin.py: contiene los objetos habilitados para ser gestionados por el administrador.
 		- models.py: objetos creados que necesitan ser almacenados en base de datos.
