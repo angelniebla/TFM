@@ -6,18 +6,17 @@ Código del TFM con título Sistema de prevención de colisiones basado en la co
 
 El contenido del repositorio es el siguiente:
 - NavigationCar (Aplicación Android)
-  - Activities: actividades de la aplicación.
-  - Adapters: archivos necesarios para el RecyclerView, como son el adapter, viewHolder y un helper.
-  - CameraUtils: archivos necesarios para el procesado de las imágenes en tiempo real con la camara.
-  - Communicators: clases que ejecutan tareas en segundo plano para la comunicación TCP y Bluetooth.
-  - Fragments: fragmentos de la aplicación.
-  - GlobalVars: fichero que almacena las variables globales que se usan en la aplicación.
-  - Listeners: listeners encargados de interceptar los eventos correspondientes a las peticiones al servidor.
-  - LocaleManager: fichero necesario para el cambio de idioma en la aplicación.
-  - Model: clases de los objetos necesarios en la aplicación.
-  - SharedPreference: fichero que almacena los conjuntos clave-valor que se usan en la aplicación.
-  - Volley: archivos necesarios para el uso de la librería Volley en las conexiones HTTP con el servidor.
-  - carnavigation.apk: archivo apk que contiene la aplicación.
+  - Activities/: actividades de la aplicación.
+  - Adapters/: archivos necesarios para el RecyclerView, como son el adapter, viewHolder y un helper.
+  - CameraUtils/: archivos necesarios para el procesado de las imágenes en tiempo real con la camara.
+  - Communicators/: clases que ejecutan tareas en segundo plano para la comunicación TCP y Bluetooth.
+  - Fragments/: fragmentos de la aplicación.
+  - GlobalVars/: fichero que almacena las variables globales que se usan en la aplicación.
+  - Listeners/: listeners encargados de interceptar los eventos correspondientes a las peticiones al servidor.
+  - LocaleManager/: fichero necesario para el cambio de idioma en la aplicación.
+  - Model/: clases de los objetos necesarios en la aplicación.
+  - SharedPreference/: fichero que almacena los conjuntos clave-valor que se usan en la aplicación.
+  - Volley/: archivos necesarios para el uso de la librería Volley en las conexiones HTTP con el servidor.
   
 - CarNavigationServer (Servidor cloud)}
 	- car
