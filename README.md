@@ -5,7 +5,7 @@ Vídeos de las pruebas realizadas https://drive.google.com/drive/folders/1Z_zpLJ
 ## Código del TFM con título Sistema de prevención de colisiones basado en la comunicación con infraestructuras del alumno Ángel Niebla Montero
 
 El contenido del repositorio es el siguiente:
-- NavigationCar (Aplicación Android)
+- CarNavigation (Aplicación Android)
   - Activities/: actividades de la aplicación.
   - Adapters/: archivos necesarios para el RecyclerView, como son el adapter, viewHolder y un helper.
   - CameraUtils/: archivos necesarios para el procesado de las imágenes en tiempo real con la camara.
