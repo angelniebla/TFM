@@ -1,0 +1,51 @@
+
+<div id="map" style="width:1200px; height:800px;" class="col-md-8" > 							
+	{% block map %} 
+	
+		<script>		
+		function initMap() {
+			var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+			var mark = {lat: 43.3491, lng: -8.4155};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 4,
+				center: mark
+			});	
+			var icon_car = {
+				url: 'http://img.app-liv.jp.s3.amazonaws.com/icon/001564815/08b0910fd0151326d3c388865f3daf94.png',
+				scaledSize: new google.maps.Size(30, 30), // scaled size
+			};
+			var icon_node = {
+				url: 'http://www.mcbratneyfuneraldirectors.co.uk/wp-content/uploads/2016/04/home_home_icon_map_marker_flat_icon_home_png_map_marker_icon_png.png',
+				scaledSize: new google.maps.Size(30, 30), // scaled size
+			};
+			
+			{% for c in car_list %}
+				var mark = {lat: {{c.latitude}}, lng: {{c.longitude}}};
+				var marker = new google.maps.Marker({
+						position: mark,
+						map: map,    
+						icon: icon_car        
+				});
+				map.setCenter(mark)
+			{% endfor %}
+			
+			{% for n in node_list %}
+				var mark = {lat: {{n.latitude}}, lng: {{n.longitude}}};
+				var marker = new google.maps.Marker({
+						position: mark,
+						map: map,    
+						icon: icon_node        
+				});
+				map.setCenter(mark)
+			{% endfor %}
+			
+		}
+		
+		</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJl2jz_kpq5w-MxQzIZd669o7nq_i1-TE&callback=initMap"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+	{% endblock %}
+</div> 
+
+ 

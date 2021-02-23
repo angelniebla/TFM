@@ -1,0 +1,14 @@
+#!/bin/sh
+
+dbname="cardb"
+username="admin"
+PGPASSWORD=admin1 psql -U admin -h 127.0.0.1 cardb << EOF
+begin;
+DELETE FROM car_car WHERE "date" < now() - interval '15 minutes';
+commit;
+
+begin;
+DELETE FROM car_alert WHERE id not in (select id from car_alert ORDER BY id desc LIMIT 100);
+commit;
+
+EOF
