@@ -19,20 +19,20 @@ El contenido del repositorio es el siguiente:
   - Volley: archivos necesarios para el uso de la librería Volley en las conexiones HTTP con el servidor.
   - carnavigation.apk: archivo apk que contiene la aplicación.
   
--CarNavigationServer (Servidor cloud)}
-	-car
-		-admin.py: contiene los objetos habilitados para ser gestionados por el administrador.
-		-models.py: objetos creados que necesitan ser almacenados en base de datos.
-		-serializers.py: serializers para cada objeto que necesite serializar y deserializar las instancias de fragmentos en representaciones json.
-		-views.py: se realiza el procesado de la información recibida.
-		-templates/: plantillas HTML modificadas para la interfaz del administrador.
-		-templatetags/: contiene el tag para la plantilla que muestra el mapa para el administrador.
-	-carnavigation/
-		-settings.py: configuración de la aplicación Django.
-		-urls.py: configuración de las URL raíz del proyecto.
--CarNavigationBluetoothServer(Servidor del nodo)
-  -main_server: contiene el controlador del servidor
-  -bluetooth_server: contiene el código para el manejo de cada conexión bluetooth.
-  -carnavigation: contiene el código que procesa la información recibida por la conexión bluetooth abierta.
+- CarNavigationServer (Servidor cloud)}
+	- car
+		- admin.py: contiene los objetos habilitados para ser gestionados por el administrador.
+		- models.py: objetos creados que necesitan ser almacenados en base de datos.
+		- serializers.py: serializers para cada objeto que necesite serializar y deserializar las instancias de fragmentos en representaciones json.
+		- views.py: se realiza el procesado de la información recibida.
+		- templates/: plantillas HTML modificadas para la interfaz del administrador.
+		- templatetags/: contiene el tag para la plantilla que muestra el mapa para el administrador.
+	- carnavigation/
+		- settings.py: configuración de la aplicación Django.
+		- urls.py: configuración de las URL raíz del proyecto.
+- CarNavigationBluetoothServer(Servidor del nodo)
+  - main_server: contiene el controlador del servidor
+  - bluetooth_server: contiene el código para el manejo de cada conexión bluetooth.
+  - carnavigation: contiene el código que procesa la información recibida por la conexión bluetooth abierta.
 
--Sensor.py : archivo con el código del nodo que recoge la información de los sensores y la envía.
+- Sensor.py : archivo con el código del nodo que recoge la información de los sensores y la envía.
